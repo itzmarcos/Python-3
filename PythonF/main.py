@@ -56,3 +56,24 @@ ini = int(input('Inicio: '))
 fim = int(input('Fim: '))
 pas = int(input('Passo: '))
 contador(ini, fim, pas)'''
+
+#98
+'''def maior(* num):
+    cont = maior = 0
+    print('\nAnalisando valores...')
+    for valor in num:
+        print(f'{valor} ', end='')
+        if cont == 0:
+            maior = valor
+        else:
+            if valor > maior:
+                maior = valor
+        cont += 1
+    print(f'Foram informado {cont} valores')
+    print(f'e o maior é valor é {maior}')
+
+
+maior(1, 5, 6, 8)
+#maior(2, 5, 1)'''
+#100
+
